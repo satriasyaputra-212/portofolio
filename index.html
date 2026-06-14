@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Portofolio Satria Syaputra</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.horizontal-scroll {
+				display: flex;
+				overflow-x: auto;
+				gap: 20px;
+				padding: 20px 0;
+				scroll-snap-type: x mandatory;
+				scrollbar-width: thin;
+			}
+			.scroll-item {
+				flex: 0 0 300px;
+				scroll-snap-align: center;
+				background: #fff;
+				border-radius: 8px;
+				box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+				padding: 10px;
+			}
+			.scroll-item img {
+				width: 100%;
+				height: 180px;
+				object-fit: cover;
+				border-radius: 6px;
+			}
+			.certificate-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+				gap: 15px;
+				margin-top: 15px;
+			}
+			.certificate-item {
+				background: #f9f9f9;
+				border: 1px solid #eee;
+				padding: 15px;
+				border-radius: 6px;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<div id="wrapper">
+
+				<header id="header">
+						<h1><a href="index.html">Portofolio Satria Syaputra</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="#home">Beranda</a></li>
+								<li><a href="#about">Tentang Saya</a></li>
+								<li><a href="#gallery">Galeri Karya</a></li>
+								<li><a href="#experience">Pengalaman & BA</a></li>
+								<li><a href="#contact">Kontak</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<section id="menu">
+						<section>
+							<ul class="links">
+								<li><a href="#home"><h3>Beranda</h3></a></li>
+								<li><a href="#about"><h3>Tentang Saya</h3></a></li>
+								<li><a href="#gallery"><h3>Galeri Karya</h3></a></li>
+								<li><a href="#experience"><h3>Pengalaman & BA</h3></a></li>
+								<li><a href="#contact"><h3>Kontak</h3></a></li>
+							</ul>
+						</section>
+					</section>
+
+				<div id="main">
+
+						<article id="home" class="post">
+								<header>
+									<div class="title">
+										<h2><a href="#">Halo kenalin aku Satria 👋✨</a></h2>
+										<p>Multimedia Graphic Engineering Technology Student</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2026-06-14">June 14, 2026</time>
+										<a href="#" class="author"><span class="image"><img src="images/avatar.jpg" alt="" /></span></a>
+									</div>
+								</header>
+								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<p>Selamat datang di website portofolio pribadiku. Di sinilah ruangku mendokumentasikan berbagai perjalanan, karya visual, dan aktivitas digital yang aku tekuni.</p>
+							</article>
+
+						<article id="about" class="post">
+								<header>
+									<div class="title">
+										<h2><a href="#">Tentang Saya</a></h2>
+									</div>
+								</header>
+								<p>Aku adalah mahasiswa Multimedia Graphic Engineering Technology di Politeknik Negeri Medan yang aktif di dunia kreatif, dengan ketertarikan pada <em>video editing</em>, desain grafis, fotografi, serta pengembangan konten visual yang komunikatif dan menarik.</p>
+								<p>Di luar aktivitas digital, aku menikmati waktu untuk hal-hal sederhana seperti menikmati langit sore, berkebun, dan membaca novel. Hal-hal kecil ini menjadi ruang untuk rehat sekaligus sumber inspirasi dalam berkarya.</p>
+							</article>
+
+						<article id="gallery" class="post">
+								<header>
+									<div class="title">
+										<h2><a href="#">Galeri Karya 🎨</a></h2>
+										<p>Kumpulan hasil desain, video, fotografi, dan project game</p>
+									</div>
+								</header>
+								<div class="horizontal-scroll">
+									<div class="scroll-item">
+										<img src="images/pic02.jpg" alt="Desain Grafis" />
+										<h4 style="margin: 10px 0 0 0; text-align: center;">Desain & Logo</h4>
+									</div>
+									<div class="scroll-item">
+										<img src="images/pic03.jpg" alt="Video & Fotografi" />
+										<h4 style="margin: 10px 0 0 0; text-align: center;">Fotografi & Sky View</h4>
+									</div>
+									<div class="scroll-item">
+										<img src="images/pic04.jpg" alt="Game Development" />
+										<h4 style="margin: 10px 0 0 0; text-align: center;">Game Development (Unity)</h4>
+									</div>
+								</div>
+							</article>
+
+						<article id="experience" class="post">
+								<header>
+									<div class="title">
+										<h2><a href="#">Pengalaman & Keaktifan 🚀</a></h2>
+										<p>Organisasi, Duta Merek, dan Sertifikasi</p>
+									</div>
+								</header>
+								<h3>Pengalaman Organisasi & Duta</h3>
+								<ul>
+									<li><b>Google Student Ambassador</b></li>
+									<li><b>Brand Ambassador</b> BRI & GoPay</li>
+									<li><b>Staff Multimedia & Design</b> Youth Rangers Indonesia District Sumatra 1</li>
+									<li><b>Campus Public Relations Volunteer</b></li>
+								</ul>
+								
+								<h3 style="margin-top: 20px;">Sertifikat & Penghargaan</h3>
+								<div class="certificate-grid">
+									<div class="certificate-item">
+										<p style="margin:0;">Sertifikat Kompetensi Multimedia</p>
+									</div>
+									<div class="certificate-item">
+										<p style="margin:0;">Finalis Kompetisi Game Edukasi</p>
+									</div>
+									<div class="certificate-item">
+										<p style="margin:0;">Appreciation Letter Brand Ambassador</p>
+									</div>
+								</div>
+							</article>
+
+					</div>
+
+				<section id="sidebar">
+						<section id="intro">
+							<a href="#" class="logo"><img src="images/logo.jpg" alt="" /></a>
+							<header>
+								<h2>Satria Syaputra</h2>
+								<p>Multimedia Enthusiast | Creator | Tech Explorer</p>
+							</header>
+						</section>
+					</section>
+
+			</div>
+
+		<section id="contact" class="post" style="text-align: center; background: #f4f4f4; padding: 40px 20px; margin-top: 30px;">
+				<h2>Hubungi Saya 👋</h2>
+				<p>Mari terhubung dan berkolaborasi bersama melalui platform di bawah ini:</p>
+				<ul class="actions" style="justify-content: center; display: flex; gap: 15px;">
+					<li><a href="https://wa.me/qr/XOTKJRXTSCIZA1" target="_blank" class="button large">WhatsApp</a></li>
+					<li><a href="https://www.instagram.com/satria_syaputraa?igsh=Nm83cWN4aWM4MjJl" target="_blank" class="button large">Instagram</a></li>
+				</ul>
+			</section>
+
+			<section id="footer" style="text-align: center; padding: 20px; background: #fff;">
+				<p class="copyright">&copy; Portofolio Satria Syaputra. Design: <a href="http://html5up.net">HTML5 UP
